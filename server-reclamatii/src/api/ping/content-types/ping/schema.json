@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "pings",
+  "info": {
+    "singularName": "ping",
+    "pluralName": "pings",
+    "displayName": "ping"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "status": {
+      "type": "string"
+    }
+  }
+}

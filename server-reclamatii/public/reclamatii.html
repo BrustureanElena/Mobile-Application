@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+  <!-- add socket.io script -->
+  <script src="/socket.io/socket.io.js"></script>
+  <script>
+    // connect user throught socket
+    const socket = io();
+    // listen for event name 'hello' & log it
+    socket.on('hello', (res) => console.log(res));
+  </script>
+</body>
+</html>

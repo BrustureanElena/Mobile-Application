@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "reclamaties",
+  "info": {
+    "singularName": "reclamatie",
+    "pluralName": "reclamaties",
+    "displayName": "reclamatie"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nume": {
+      "type": "string"
+    },
+    "cnp": {
+      "type": "string"
+    },
+    "telefon": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "descriere": {
+      "type": "text"
+    },
+    "imagine": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "categorie": {
+      "type": "string"
+    }
+  }
+}
